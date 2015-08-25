@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="coffeeApp" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quickie Coffee</title>
+    <style>
+          .coffeeShop-summary-block{
+              position: relative;
+              width:100%;
+              margin:0.3em;
+              padding: 1em;
+              min-height: 15em;
+              background-color: #428bca;
+              color: #fff;
+          }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Search for coffee</h1>
+    <div class="row">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+        </div>
+    </div>
+
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="app.js"></script>
+<script src="services/coffeeSearch.fct.js"></script>
+</body>
+</html>
