@@ -5,7 +5,12 @@
 var app = angular.module('coffeeApp',[]);
 
 app.controller('coffee.ctrl',function(CoffeeSearchFactory){
-         var vm=this;
-    vm.coffeeShops=CoffeeSearchFactory.getCoffeeShops();
+    var vm=this;
+    vm.coffeeShops=[
+        {
+            "name":"Cafe Amici",
+            "id":1
+        }
+    ];
 
 });
